@@ -1,0 +1,18 @@
+{
+    "name": "beacon-simulator",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "node beacon-simulation.js"
+    },
+    "author": "sanchayan",
+    "license": "ISC",
+    "dependencies": {
+        "bleno": "^0.5.0",
+        "bluetooth-hci-socket": "^0.5.2",
+        "node-gyp": "^7.1.2"
+    },
+    "devDependencies": {
+        "electron-rebuild": "^2.3.4"
+    }
+}

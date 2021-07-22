@@ -1,0 +1,31 @@
+{
+    "name": "nodejs-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "sanchayan",
+    "license": "ISC",
+    "dependencies": {
+        "@vonage/server-sdk": "^2.10.10",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "dateformat": "^4.3.1",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-validation": "^3.0.6",
+        "joi": "^17.4.0",
+        "mongoose": "^5.10.15",
+        "mosca": "^2.8.3",
+        "mqtt": "^4.2.5",
+        "nexmo": "^2.9.1",
+        "node-gyp": "^7.1.2",
+        "nodemon": "^2.0.6",
+        "rebuild": "^0.1.2",
+        "textmagic-rest-client": "^1.0.11",
+        "twilio": "^3.66.0"
+    }
+}
