@@ -1,7 +1,5 @@
 # Contact Tracing System Using Node.js and Beacon Low Power Devices
 
-Designing a system to trace potential spread of COVID using contact tracing. The system includes a dashboard for the administrator to see movement of an user in an estate.
-
 #### Goals
 <ol>
   <li>To calculate the number of students present in a room in a given time period.</li>
