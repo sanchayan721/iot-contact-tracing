@@ -41,6 +41,7 @@ Designing a system to trace potential spread of COVID using contact tracing. The
 </ol>
 
 ## Architecture
+![Architecture of the Application](/assets/Architecture.png)
 
 ## Beacon Scanner
 <ol>
@@ -48,6 +49,9 @@ Designing a system to trace potential spread of COVID using contact tracing. The
   <li>It also sends the data to server using MQTT.</li>
   <li>It stores historical data of beacons along with their location of in the Mongo DB.</li>
 </ol>
+
+### Class Diagram of the Beacon Scanner
+![Beacon Scanner](/assets/class_diagram_beacon_scanner.png)
 
 ## MQTT Server
 <ol>
@@ -63,6 +67,9 @@ Designing a system to trace potential spread of COVID using contact tracing. The
   </li>
 </ol>
 
+### Class Diagram of the MQTT Server
+![MQTT Server](/assets/class_diagram_MQTT_server.png)
+
 ## Client Dashboard
 The client dashboard fetches the data from the server with MQTT and HTTP protocols. It displays the information about the beacons
 <ol>
@@ -70,11 +77,16 @@ The client dashboard fetches the data from the server with MQTT and HTTP protoco
   <li>As analytical graphs</li>
 </ol>
 
+### Class Diagram of the Client Dashboard
+![MQTT Server](/assets/class_diagram_dashboard.png)
+
 ## Beacon Simulator
 <ol>
   <li>Simulation of the BLE device carried by the students.</li>
   <li>Emits a beacon with a static UUID provided by the admin.</li>
   <li>Implemented using Blenopackage.</li>
 </ol>
+
+## Video Presentation
 
 [![CONTACT TRACING SYSTEM USING Node.js](https://img.youtube.com/vi/FnoAfeVcyWs/0.jpg)](https://www.youtube.com/watch?v=FnoAfeVcyWs)
