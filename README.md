@@ -85,6 +85,6 @@ The client dashboard fetches the data from the server with MQTT and HTTP protoco
   <li>Implemented using Blenopackage.</li>
 </ol>
 
-## Video Presentation
+## Video Tutorial
 
 <a href="https://www.youtube.com/watch?v=FnoAfeVcyWs" title="Link to YouTube Video">![Load Application](/assets/Thumbnail.png "Click to Play the Video on YouTube")</a>
