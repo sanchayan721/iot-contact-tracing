@@ -87,4 +87,4 @@ The client dashboard fetches the data from the server with MQTT and HTTP protoco
 
 ## Video Presentation
 
-[![CONTACT TRACING SYSTEM USING Node.js](https://img.youtube.com/vi/FnoAfeVcyWs/0.jpg)](https://www.youtube.com/watch?v=FnoAfeVcyWs)
+<a href="https://www.youtube.com/watch?v=FnoAfeVcyWs" title="Link to YouTube Video">![Load Application](/assets/Thumbnail.png "Click to Play the Video on YouTube")</a>
